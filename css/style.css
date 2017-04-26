@@ -1,0 +1,129 @@
+body { 
+	width: 100%;
+ }
+ 
+ 
+ 
+ 
+ 
+.navbar-brand {
+	font-family: 'Wallpoet', cursive;
+	font-weight: bold;
+	transition: 2s;
+}
+#login {
+	background:#686565;
+	color: #eee;
+}
+#login:hover {
+	color: #fff;
+	background:#000;
+}
+.carousel-inner > .item > img {
+	width: 100%;
+}
+.h2, h2 {
+    font-size: 500%;
+	font-family: Codystar, sans-serif;
+	color: #eee;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-shadow: -2px 3px 3px #000;
+}
+#carousel-example-generic.carousel.slide {
+	border-bottom: 3px solid #F0F0F0;
+}
+#container_about_us {
+	margin: 3%;
+}
+
+#panel_about_us img{
+	width: 15%;
+	float:left;
+	margin: 0px 10px 1px 0px;
+}
+#panel_about_us p{
+	line-height: 25px;
+}
+#tooltip1, #tooltip2 {
+	color: #666;
+}
+#tooltip1:hover, #tooltip2:hover {
+	text-decoration: none;
+	border-bottom:1px dotted #666;
+}
+
+
+#container-thumbnail {
+	transition: 1s;
+}
+.thumbnail {
+	transition: 1s;
+}
+.thumbnail > img {
+	width: 100%;
+	transition: 1s;
+}
+
+a.btn.btn-default.more-thumbnail {
+	position: absolute;
+	transition: 1s;
+}
+.caption > p {
+	transition: 1s;
+}
+
+
+
+a#arrow-up > img {
+	width: 30px;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+#footer {
+    text-align: center;
+    background:#666;
+	color:#fff;
+	margin: 0;
+	padding: 10px;
+	border-top: 2px solid #eee;
+}
+
+@media only screen and (min-width: 961px) {
+	body {padding-top:;}
+	.navbar-brand {font-size: 250%;}
+	.thumbnail {height: 570px;}
+	a.btn.btn-default.more-thumbnail {bottom: 40px;right: 40px;}
+}
+
+/* Tablets/iPads (Landscape and Portrait)*/
+@media only screen and (min-width: 768px) and (max-width: 960px){
+	body {padding-top:;}
+	.navbar-brand {font-size: 400%;}
+	.thumbnail {height: auto;}
+	a.btn.btn-default.more-thumbnail {bottom: 5px; right: 10px;}
+	a.btn.btn-default.more-thumbnail {bottom: 25px; right: 20px;}
+	.caption > p {padding-bottom: 15px;}
+}
+
+/* Smaller tablets(Landscape and Portrait)*/
+@media only screen and (min-width: 569px) and (max-width: 767px){
+	body {padding-top:;}
+	.navbar-brand {font-size: 300%;}
+	.thumbnail {height: auto;}
+	a.btn.btn-default.more-thumbnail {bottom: 5px; right: 20px;}
+	.caption > p {padding-bottom: 15px;}
+}
+
+
+/* Smartphones (Landscape and Portrait)*/
+@media only screen and (min-width: 240px) and (max-width: 568px){
+	body {padding-top:;}
+	.navbar-brand {font-size: 210%;}
+	.thumbnail {height: auto;}
+	a.btn.btn-default.more-thumbnail {bottom: 10px;right: 40px;}
+	.caption > p {padding-bottom: 20px;}
+}
+
+ 

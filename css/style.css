@@ -1,6 +1,5 @@
 body { 
 	width: 100%;
-	margin-top: 50px;
  }
  
  
@@ -110,27 +109,36 @@ a#arrow-up > img {
 	border-top: 2px solid #eee;
 }
 
-@media only screen and (max-width: 1030px) {
-	#main-navbar .navbar-toggle {display: block;}
-	#main-navbar .navbar-collapse {display: none !important;}
+@media only screen and (min-width: 1016px) {
+	.navbar-brand {font-size: 250%;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1015px){
+	.navbar-brand {width: 100%; text-align: center; font-size: 350%;}
+}
+
+@media only screen and (max-width: 1015px) {
+	body {margin-top: 100px;}
 	#main-navbar .navbar-header {float: none;}
 	.h2, h2 {font-size: 500%; padding: 10px 20px;}
 }
 
-
+	
 @media only screen and (min-width: 961px) {
-	.navbar-brand {font-size: 250%;}
+	body {margin-top: 50px;}
 	.h2, h2 {font-size: 500%; padding: 10px 20px;}
 }
 
 /* Tablets/iPads (Landscape and Portrait)*/
-@media only screen and (min-width: 768px) and (max-width: 960px){
+@media only screen and (min-width: 764px) and (max-width: 960px){
+	body {margin-top: 50px;}
 	.navbar-brand {font-size: 350%;}
 	.h2, h2 {font-size: 500%; padding: 10px 20px;}
 }
 
 /* Smaller tablets(Landscape and Portrait)*/
 @media only screen and (min-width: 569px) and (max-width: 767px){
+	body {margin-top: 50px;}
 	.navbar-brand {font-size: 300%;}
 	.h2, h2 {font-size: 400%; padding: 10px 20px;}
 }
@@ -138,11 +146,14 @@ a#arrow-up > img {
 
 /* Smartphones (Landscape and Portrait)*/
 @media only screen and (min-width: 371px) and (max-width: 568px){
+	body {margin-top: 50px;}
 	.navbar-brand {font-size: 210%;}
 	.h2, h2 {font-size: 300%; padding: 0;}
 }
 
  @media only screen and (min-width: 240px) and (max-width: 370px){
+	 body {margin-top: 50px;}
 	.navbar-brand {font-size: 200%;}
 	.h2, h2 {font-size: 150%; padding: 0;}
+	
 }
